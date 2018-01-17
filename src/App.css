@@ -9,13 +9,32 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 200px;
   padding: 20px;
   color: white;
 }
 
 .App-title {
   font-size: 1.5em;
+}
+.myForm {
+  padding: 50px;
+}
+
+.movie-block {
+  padding: 1%;
+  margin: 5px;
+  background-color: black;
+  color: #aaa;
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+}
+
+.movie-block:hover {
+  background-color: #aaa;
+  color: black;
 }
 
 .App-intro {

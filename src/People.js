@@ -60,7 +60,7 @@ class People extends React.Component {
 		}
 	  )))
 	.then(contacts=>this.setState({
-	  contacts,
+	  contacts: contacts,
 	  isLoading: false
 	}))
 	.catch(error=>console.log('parsing failed', error))
